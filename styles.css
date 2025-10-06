@@ -81,3 +81,41 @@ body{
 #resetbtn{
     background-color: #ffa600;
 }
+.progressbar{
+    height: 180px;
+    width: 180px;
+    background: conic-gradient(crimson 0deg, rgba(243, 72, 109) 0deg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pulse 3s infinite;
+    transition: all ease;
+    margin-bottom: 50px;
+}
+.progressbar-inner{
+    height: 90%;
+    width: 90%;
+    background: #03033f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progressbar-number{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 2rem;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(0.97);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.97);
+    }
+}
+
