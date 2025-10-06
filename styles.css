@@ -49,7 +49,7 @@ body{
     display: none;
     font-weight: 800;
 }
-.functions-buttons{
+.function-buttons{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -102,7 +102,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-.progressbar-number{
+.progress-number{
     color: #ffffff;
     font-weight: 900;
     font-size: 2rem;
