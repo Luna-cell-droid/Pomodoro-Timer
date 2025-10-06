@@ -38,7 +38,7 @@ body{
 }
 .timer-container button:hover { transform: scale(1.2);}
 .function-buttons button:hover { transform: scale(1.2);}
-.timer-container .sctive{
+.timer-container .active{
     background-color: #db2a34;
 }
 #longbrkbtn{
